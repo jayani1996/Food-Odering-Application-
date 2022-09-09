@@ -1,0 +1,190 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,400;0,700;1,400;1,700&family=Roboto:wght@300;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Berkshire+Swash&display=swap');
+
+
+{
+    margin: 0;
+    padding: 0;
+    font-family: 'Varela Round', sans-serif;
+}
+
+/*nav .PageHeadding{
+	 background-image: linear-gradient(15deg, #13547a 0%, #80d0c7 100%);
+
+}*/
+
+
+ #pageHeadding {
+	font-weight: bold;
+	color: #800000;
+	font-size: 40px;
+	font-family: 'Berkshire Swash';
+	/*padding-left: 35%;*/
+	padding-top: 20px;
+	margin-bottom: 10px;
+	
+	text-align: center;
+
+}
+
+.navbar-light{
+	/*padding-bottom: 10px;
+	/*margin-bottom: 50px;*/
+	/*box-shadow: 0 5px 10px #efefef;*/
+}
+
+.navbar-light ul li a {
+	/*color: #000080;*/
+	color: black;
+	font-weight: bold;
+	font-family: 'Roboto';
+	text-transform: uppercase;
+	font-size: 15px;
+
+}
+
+/*mouse over link*/
+.navbar-light ul li a:hover {
+	color: darkorange;
+}
+
+/*selected link*/
+.navbar-light ul li a:active {
+	color: darkorange;
+}
+
+/*search bar*/
+#searchWord{
+	border-radius: 20px;
+	border: 1px solid #A9A9A9;
+	margin-bottom: 10px;
+	
+}
+
+#content{
+	margin-top: 25px;
+	margin-bottom: 20px;
+}
+
+
+h6{
+	font-weight: bold;
+	margin-top: 25px;
+	
+	padding-left:90px;
+	color: #4C4646;
+	text-transform: uppercase;
+	/*color: blue;*/
+}
+
+/*detail boxes*/
+.col{
+	padding-top: 30px;
+	margin-bottom: 10px;
+	
+	
+	
+}
+
+#carBoxes{
+	box-shadow: 1px 1px 1px #999;
+	margin-top: 20px;
+	
+	/*border-top: 0px;
+	border-right: 0px;
+	border-left: 0px;
+	margin-top: 20px;*/
+}
+
+#RecentBox{
+	border-bottom: 0px;
+	border-right: 0px;
+	border-left: 0px;
+}
+
+#RecentBox:hover{
+	box-shadow: 1px 3px 3px #999;
+}
+
+.card-title{
+	font-weight: bold;
+	font-family: playfair;
+	font-size: 30px;
+}
+
+.card-text{
+	color: #6D6968;
+
+}
+
+/* read more buttons*/
+.btn-outline-success {
+	color: #fff;
+	/*border: 1px solid darkblue;*/
+	border: 0px;
+	border-radius: 15px;
+	background: #E55451;
+
+	/*background: #6495ED;*/
+
+	/*outline-color: red;*/
+}
+
+.btn-outline-success:hover {
+	color: white;
+	/*background: #800000;*/
+	background: darkorange;
+	border: 0px;
+	box-shadow: 5px 5px 10px #999;
+}
+
+
+
+/*-----------Read More Details Area------------*/
+
+.Title{
+	font-family: playfair;
+	font-weight: bold; 
+	color: #e6005c;
+
+}
+
+.mainDescription{
+	font-family: 'Roboto';
+}
+
+.subDescription{
+	font-family: 'Roboto';
+}
+
+#dateTime{
+	color: gray
+}
+
+.imageEdit{
+	margin-left: 10px;
+	margin-right: 10px;
+	margin-bottom: 5px;
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-bottom: 10px;
+}
+
+
+
+/*-------Page Foter-------*/
+#copyright{
+	background: black;
+	color: white;
+	padding-top: 30px;
+	padding-bottom: 40px;
+
+}
+
+#txtDeveloper a{
+	color: white;
+}
+
+
